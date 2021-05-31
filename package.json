@@ -1,7 +1,7 @@
 {
-  "name": "project",
+  "name": "figma_case_1",
   "version": "0.0.1",
-  "description": "",
+  "description": "training project",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kir1806/**.git"
+    "url": "git+https://github.com/Kir1806/FIGMA_case_1.git"
   },
   "author": "Kirill Shlyonkin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kir1806/**/issues"
+    "url": "https://github.com/Kir1806/FIGMA_case_1/issues"
   },
-  "homepage": "https://github.com/Kir1806/**#readme",
+  "homepage": "https://github.com/Kir1806/FIGMA_case_1#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
