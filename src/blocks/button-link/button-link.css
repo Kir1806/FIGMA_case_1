@@ -1,0 +1,15 @@
+.button-link {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;  
+}

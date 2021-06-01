@@ -8,10 +8,66 @@
     <meta name="keywords" content="">
     <meta name="author" content="Кирилл Шленкин">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
-    <link rel="icon" href="<%=require('./images/favicon/favicon.png')%>" type="image/png">
-    <title>title</title>
+    <link rel="icon" href="<%=require('./images/favicon/favicon.png').default%>" type="image/png">
+    <title>Figma_case_1</title>
 </head>
-<body>    
+<body>
+    <header class="header">
+        <img src="<%=require('./images/Vector.svg').default%>" alt="заголовок блога" class="header__title">
+        <ul class="header__nav">
+            <li class="header__nav_item"><a href="#" class="link header__nav_link">Современные здания</a></li>
+            <li class="header__nav_item"><a href="#" class="link header__nav_link">Старинные здания</a></li>
+            <li class="header__nav_item"><a href="#" class="link header__nav_link">Последние проекты</a></li>
+            <li class="header__nav_item"><a href="#" class="link header__nav_link">Архитектурные новости</a></li>
+        </ul>
+    </header> 
+
+    
+    <section class="slider-news">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-block">
+                        <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image">
+                        <h2 class="slide-block__title">Самые актуальные архитектурные новости</h2>
+                        <a href="#" class="button-link slide-block__buttom-link">Смотреть</a>                        
+                    </div>
+                    <!-- /.slide-block -->
+                </div>
+                <!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <div class="slide-block">
+                        <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image">
+                        <h2 class="slide-block__title">Самые актуальные архитектурные новости</h2>
+                        <a href="#" class="button-link slide-block__buttom-link">Смотреть</a>                        
+                    </div>
+                    <!-- /.slide-block -->
+                </div>
+                <!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <div class="slide-block">
+                        <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image">
+                        <h2 class="slide-block__title">Самые актуальные архитектурные новости</h2>
+                        <a href="#" class="button-link slide-block__buttom-link">Смотреть</a>                        
+                    </div>
+                    <!-- /.slide-block -->
+                </div>
+                <!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <div class="slide-block">
+                        <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image">
+                        <h2 class="slide-block__title">Самые актуальные архитектурные новости</h2>
+                        <a href="#" class="button-link slide-block__buttom-link"></a>                        
+                    </div>
+                    <!-- /.slide-block -->
+                </div>
+                <!-- /.swiper-slide -->
+            </div>
+            <!-- /.swiper-wrapper -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- /.swiper-container -->
+    </section>
 </body>
 <script src="<%=htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </html>

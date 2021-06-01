@@ -1,0 +1,11 @@
+@import url('./__title/header__title.css');
+@import url('./__nav/header__nav.css');
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 124px;
+    padding-bottom: 40px;
+    /* border: 1px solid red; */
+}

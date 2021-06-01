@@ -1,0 +1,7 @@
+@import url('../slide-block/__title/slide-block__title.css');
+@import url('../button-link/button-link.css');
+@import url('./__button-link/slide-block__buttom-link.css');
+
+.slide-block {
+    position: relative;
+}

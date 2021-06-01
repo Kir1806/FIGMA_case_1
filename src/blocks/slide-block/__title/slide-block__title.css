@@ -1,0 +1,12 @@
+.slide-block__title {
+    width: 622px;
+    position: absolute;
+    left: 60px;
+    bottom: 148px;
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color:#fff;
+}

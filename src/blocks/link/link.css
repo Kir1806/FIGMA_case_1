@@ -1,0 +1,26 @@
+.link {
+    text-decoration: none;
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    white-space: nowrap;
+    cursor: url('../../images/cursor.svg'), auto;
+}
+
+.link:hover {
+    /* color: red; */
+    border-bottom: 2px solid #d90000;
+    padding-bottom: 4px;
+}
+/* .link:active {
+    color: #d90000;
+    color: rgb(63, 63, 63);
+}
+
+.link:visited {
+    color: #d90000;
+    color: rgb(63, 63, 63);
+} */

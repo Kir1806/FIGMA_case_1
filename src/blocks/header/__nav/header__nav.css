@@ -1,0 +1,11 @@
+@import url('./_item/header__nav_item.css');
+@import url('./_link/header__nav_link.css');
+
+.header__nav {
+    width: 50%;    
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+}

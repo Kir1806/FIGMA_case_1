@@ -1,5 +1,11 @@
-/* @import url('../fonts/fonts.css'); */
+@import url('../fonts/fonts.css');
 @import url('../vendor/normalize.css');
+
+@import url('../blocks/link/link.css');
+@import url('../blocks/header/header.css');
+@import url('../../node_modules/swiper/swiper.min.css');
+@import url('../blocks/slider-news/slider-news.css');
+
 
 
 
@@ -7,5 +13,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Montserrat Regular' sans-serif;
+    background-color: #fff;
+    color: #333333;
 }
 

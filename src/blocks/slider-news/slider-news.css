@@ -1,0 +1,10 @@
+@import url('./swiper-wrapper/swiper-wrapper.css');
+@import url('../slide-block/slide-block.css');
+
+.slider-news {
+    width: 61%;
+    margin-right: auto;
+    margin-left: auto;
+
+    /* border: 1px solid red; */
+}
