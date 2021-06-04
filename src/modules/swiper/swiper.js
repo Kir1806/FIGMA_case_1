@@ -1,8 +1,8 @@
-// import Swiper, {Navigation} from 'swiper';
-import Swiper from 'swiper';
-//Swiper.use([Navigation]);
+import Swiper, {Navigation, Pagination} from 'swiper';
+//import Swiper from 'swiper';
+Swiper.use([Navigation, Pagination]);
 
-let Slider = new Swiper ('.swiper-container', {
+const Slider = new Swiper ('.swiper-container', {
 //   autoHeight: true,
   loop: true,
   loopedSlides: 3,

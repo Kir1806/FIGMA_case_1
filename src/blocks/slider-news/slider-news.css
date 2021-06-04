@@ -1,10 +1,13 @@
+@import url('../swiper-container/swiper-container.css');
 @import url('./swiper-wrapper/swiper-wrapper.css');
 @import url('../slide-block/slide-block.css');
+@import url('../slider-news/swiper-pagination/swiper-pagination.css');
 
 .slider-news {
     width: 61%;
     margin-right: auto;
     margin-left: auto;
+    /* padding-bottom: 50px; */
 
     /* border: 1px solid red; */
 }
