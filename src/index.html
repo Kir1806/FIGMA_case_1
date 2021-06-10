@@ -27,7 +27,7 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="slide-block">
+                    <div class="slide-block"> <!--первый-->
                         <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image">
                         <h2 class="slide-block__title">Самые актуальные архитектурные новости</h2>
                         <a href="#" class="button-link slide-block__buttom-link">Смотреть</a>                        
@@ -35,8 +35,25 @@
                     <!-- /.slide-block -->
                 </div>
                 <!-- /.swiper-slide -->
+                <div class="swiper-slide"> <!--второй-->
+                    <div class="container-small-slide">
+                        <div class="slide-block"> 
+                            <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image slide-block__image-small">
+                            <h2 class="slide-block__title slide-block__title-small">Архитектурная мода 2019 года</h2>
+                            <a href="#" class="button-link slide-block__buttom-link slide-block__buttom-link-small">Смотреть</a>                        
+                        </div>
+                        <div class="slide-block">
+                            <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image-small">
+                            <h2 class="slide-block__title slide-block__title-small">Современные строения</h2>
+                            <a href="#" class="button-link slide-block__buttom-link slide-block__buttom-link-small">Смотреть</a>                        
+                        </div>
+                        <!-- /.slide-block -->
+                    </div>
+                </div>
+                <!-- /.swiper-slide -->
+
                 <div class="swiper-slide">
-                    <div class="slide-block">
+                    <div class="slide-block"> <!--первый-->
                         <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image">
                         <h2 class="slide-block__title">Самые актуальные архитектурные новости</h2>
                         <a href="#" class="button-link slide-block__buttom-link">Смотреть</a>                        
@@ -44,29 +61,65 @@
                     <!-- /.slide-block -->
                 </div>
                 <!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <div class="slide-block">
-                        <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image">
-                        <h2 class="slide-block__title">Самые актуальные архитектурные новости</h2>
-                        <a href="#" class="button-link slide-block__buttom-link">Смотреть</a>                        
+
+                <div class="swiper-slide"> <!--второй-->
+                    <div class="container-small-slide">
+                        <div class="slide-block"> 
+                            <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image slide-block__image-small">
+                            <h2 class="slide-block__title slide-block__title-small">Архитектурная мода 2019 года</h2>
+                            <a href="#" class="button-link slide-block__buttom-link slide-block__buttom-link-small">Смотреть</a>                        
+                        </div>
+                        <div class="slide-block">
+                            <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image-small">
+                            <h2 class="slide-block__title slide-block__title-small">Современные строения</h2>
+                            <a href="#" class="button-link slide-block__buttom-link slide-block__buttom-link-small">Смотреть</a>                        
+                        </div>
+                        <!-- /.slide-block -->
                     </div>
-                    <!-- /.slide-block -->
                 </div>
                 <!-- /.swiper-slide -->
-                <div class="swiper-slide">
+
+                <!-- <div class="swiper-slide"> <!--третий
+                    <div class="container-small-slide">
+                        <div class="slide-block">
+                            <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image-small">
+                            <h2 class="slide-block__title">Самые актуальные архитектурные новости</h2>
+                            <a href="#" class="button-link slide-block__buttom-link">Смотреть</a>                        
+                        </div>
+                        <!-- /.slide-block -
+                        <div class="slide-block">
+                            <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image">
+                            <h2 class="slide-block__title">Самые актуальные архитектурные новости</h2>
+                            <a href="#" class="button-link slide-block__buttom-link"></a>                        
+                        </div>
+                    </div>
+                </div> -->
+                <!-- /.swiper-slide -->
+
+                <!-- <div class="swiper-slide">
                     <div class="slide-block">
                         <img src="<%=require('./images/slider-news_Bitmap.jpg').default%>" alt="фоновая картинка" class="slide-block__image">
                         <h2 class="slide-block__title">Самые актуальные архитектурные новости</h2>
                         <a href="#" class="button-link slide-block__buttom-link"></a>                        
                     </div>
-                    <!-- /.slide-block -->
+                     /.slide-block 
                 </div>
-                <!-- /.swiper-slide -->
+                /.swiper-slide -->
             </div>
             <!-- /.swiper-wrapper -->
-            <div class="swiper-pagination">111</div>
+            <div class="swiper-pagination"></div>
         </div>
         <!-- /.swiper-container -->
+    </section>
+    <section class="modern-buildings">
+        <h3 class="section-title modern-building__title">Современные здания</h3>
+        <div class="modern-buildings__gallery">
+            <img src="<%=require('./images/sasha-yudaev-FOYsU4uQqqM-unsplash 1.jpg').default%>" alt="картинка в галерее" class="modern-buildings__gallery-item">
+            <img src="<%=require('./images/yann-allegre-v1jO6pN45_4-unsplash 1.jpg').default%>" alt="картинка в галерее" class="modern-buildings__gallery-item">
+            <img src="<%=require('./images/jude-beck-sPuSvj2g_C8-unsplash 1.jpg').default%>" alt="картинка в галерее" class="modern-buildings__gallery-item">
+            <img src="<%=require('./images/mark-boss-Xf2kJBZ2aJA-unsplash 1.jpg').default%>" alt="картинка в галерее" class="modern-buildings__gallery-item">
+
+        </div>
     </section>
 </body>
 <script src="<%=htmlWebpackPlugin.files.chunks.main.entry %>"></script>

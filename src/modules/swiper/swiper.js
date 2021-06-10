@@ -3,12 +3,13 @@ import Swiper, {Navigation, Pagination} from 'swiper';
 Swiper.use([Navigation, Pagination]);
 
 const Slider = new Swiper ('.swiper-container', {
-//   autoHeight: true,
-  loop: true,
-  loopedSlides: 3,
-  centeredSlides: true,
-  spaceBetween: 20,
-  slidesPerView:  'auto',
+  // autoHeight: true,
+  // loop: true,
+  // loopedSlides: 3,
+  // centeredSlides: true,
+    // freeMode: true,
+    spaceBetween: 20,
+    slidesPerView:  'auto',
 
   pagination: {
     el: '.swiper-pagination',

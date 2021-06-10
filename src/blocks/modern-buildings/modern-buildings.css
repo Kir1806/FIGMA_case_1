@@ -1,0 +1,8 @@
+@import url('./__gallery/modern-buildings__gallery.css');
+
+.modern-buildings {
+    width: 61%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid red;
+}

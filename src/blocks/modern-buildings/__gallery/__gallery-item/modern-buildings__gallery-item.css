@@ -1,0 +1,17 @@
+.modern-buildings__gallery-item:nth-child(1) {
+    width: 404px;
+    height: 623px;
+    object-fit: cover;
+}
+.modern-buildings__gallery-item:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.modern-buildings__gallery-item:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

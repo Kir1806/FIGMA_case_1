@@ -1,0 +1,17 @@
+.section-title {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #fff;
+    background-color: #d90000;
+
+    width: 246px;
+    height: 38px;
+    
+    border-radius: 19px;
+    padding: 8px 15px;
+    margin-bottom: 30px;
+}

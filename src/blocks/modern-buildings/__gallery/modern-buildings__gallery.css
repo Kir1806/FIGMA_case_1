@@ -1,0 +1,9 @@
+@import url('./__gallery-item/modern-buildings__gallery-item.css');
+
+.modern-buildings__gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat (8, 5vw);
+    grid-gap: 20px;
+}
