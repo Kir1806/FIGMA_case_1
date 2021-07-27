@@ -1,0 +1,5 @@
+.modern-buildings__container-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

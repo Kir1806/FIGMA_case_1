@@ -1,0 +1,6 @@
+.modern-buildings__container-left {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}

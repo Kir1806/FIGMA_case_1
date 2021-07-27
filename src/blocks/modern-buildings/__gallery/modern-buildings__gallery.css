@@ -1,9 +1,8 @@
 @import url('./__gallery-item/modern-buildings__gallery-item.css');
+@import url('./__container-left/modern-buildings__container-left.css');
+@import url('./__container-right/modern-buildings__container-right.css');
 
 .modern-buildings__gallery {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat (8, 5vw);
-    grid-gap: 20px;
+    display: flex;
 }

@@ -4,6 +4,7 @@
 @import url('./__image/slide-block__image-small.css');
 @import url('../button-link/button-link.css');
 @import url('./__button-link/slide-block__buttom-link.css');
+@import url('./__button-link/slide-block__buttom-link-small.css');
 
 
 .slide-block {    
