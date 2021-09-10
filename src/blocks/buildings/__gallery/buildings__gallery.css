@@ -1,0 +1,8 @@
+@import url('./__gallery-item/buildings__gallery-item.css');
+@import url('./__container-left/buildings__container-left.css');
+@import url('./__container-right/buildings__container-right.css');
+
+.buildings__gallery {
+    width: 100%;
+    display: flex;
+}

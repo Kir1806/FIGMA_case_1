@@ -1,8 +1,0 @@
-@import url('./__gallery-item/modern-buildings__gallery-item.css');
-@import url('./__container-left/modern-buildings__container-left.css');
-@import url('./__container-right/modern-buildings__container-right.css');
-
-.modern-buildings__gallery {
-    width: 100%;
-    display: flex;
-}

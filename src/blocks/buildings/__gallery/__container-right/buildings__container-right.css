@@ -1,0 +1,11 @@
+.buildings__container-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.older-builds {
+    display: grid;
+    row-gap: 13px;
+    grid-template-columns: 303px 217px;
+    grid-template-rows: 200px 133px 40px;
+}

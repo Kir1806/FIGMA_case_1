@@ -1,0 +1,10 @@
+@import url('./__gallery/buildings__gallery.css');
+@import url('./__link/buildings__link.css');
+
+.buildings {
+    width: 61%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 100px;
+    /* border: 1px solid red; */
+}

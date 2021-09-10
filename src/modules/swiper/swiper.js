@@ -22,4 +22,25 @@ const Slider = new Swiper ('.swiper-container', {
 //   },
 });
 
+const Slider1 = new Swiper ('.swiper-container1', {
+  // autoHeight: true,
+  // loop: true,
+  // loopedSlides: 3,
+  // centeredSlides: true,
+    // freeMode: true,
+    spaceBetween: 20,
+    slidesPerView:  'auto',
+
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true
+  },  
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev'
+//   },
+});
+
+
 export {Slider};

@@ -1,4 +1,5 @@
-.modern-buildings__link {
+@import url('./_older/buildings__link_older.css');
+.buildings__link {
     width: max-content;
     height: 22px;
     text-transform: uppercase;

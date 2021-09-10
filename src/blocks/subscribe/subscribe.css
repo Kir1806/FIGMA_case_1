@@ -1,0 +1,12 @@
+@import url('./__title/subscribe__title.css');
+@import url('./__form/subscribe__form.css');
+@import url('../button/button.css');
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f3f3f7;
+    padding: 94px 0;
+    margin-bottom: 100px;
+}

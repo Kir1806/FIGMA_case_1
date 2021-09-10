@@ -21,7 +21,6 @@
             <li class="header__nav_item"><a href="#" class="link header__nav_link">Архитектурные новости</a></li>
         </ul>
     </header> 
-
     
     <section class="slider-news">
         <div class="swiper-container">
@@ -112,24 +111,53 @@
         <!-- /.swiper-container -->
     </section>
 
-    <section class="modern-buildings">
-        <h3 class="section-title modern-building__title">Современные здания</h3>
-        <div class="modern-buildings__gallery">
-            <div class="modern-buildings__container-left">
-                <img src="<%=require('./images/sasha-yudaev-FOYsU4uQqqM-unsplash 1.jpg').default%>" alt="картинка в галерее" class="modern-buildings__gallery-item">
-                <a href="#" class="link modern-buildings__link">офисные здания</a>
+    <section class="buildings">
+        <h3 class="section-title buildings__title">Современные здания</h3>
+        <div class="buildings__gallery">
+            <div class="buildings__container-left">
+                <img src="<%=require('./images/sasha-yudaev-FOYsU4uQqqM-unsplash 1.jpg').default%>" alt="картинка в галерее" class="buildings__gallery-item">
+                <a href="#" class="link buildings__link">офисные здания</a>
             </div>
-            <div class="modern-buildings__container-right">
-                <img src="<%=require('./images/yann-allegre-v1jO6pN45_4-unsplash 1.jpg').default%>" alt="картинка в галерее" class="modern-buildings__gallery-item">
-                <img src="<%=require('./images/jude-beck-sPuSvj2g_C8-unsplash 1.jpg').default%>" alt="картинка в галерее" class="modern-buildings__gallery-item">
-                <img src="<%=require('./images/mark-boss-Xf2kJBZ2aJA-unsplash 1.jpg').default%>" alt="картинка в галерее" class="modern-buildings__gallery-item">
-                <a href="#" class="link modern-buildings__link">жилые помещения</a>
+            <div class="buildings__container-right">
+                <img src="<%=require('./images/yann-allegre-v1jO6pN45_4-unsplash 1.jpg').default%>" alt="картинка в галерее" class="buildings__gallery-item">
+                <img src="<%=require('./images/jude-beck-sPuSvj2g_C8-unsplash 1.jpg').default%>" alt="картинка в галерее" class="buildings__gallery-item">
+                <img src="<%=require('./images/mark-boss-Xf2kJBZ2aJA-unsplash 1.jpg').default%>" alt="картинка в галерее" class="buildings__gallery-item">
+                <a href="#" class="link buildings__link">жилые помещения</a>
             </div>
         </div>
     </section>
+
     <section class="subscribe">
+        <h3 class="subscribe__title">Подпишитесь на нашу e-mail рассылку</h3>
+        <form action="#" method="POST" class="subscribe__form">            
+            <input type="email" class="subscribe__form_input" id="email" name="email" required placeholder="Введите ваш e-mail">
+            <!-- <label for="email" class="subscribe__form_input-label">Введите ваш e-mail</label> -->
+            <button type="submit" class="button subscribe__form-button">Подписаться</button>
+        </form>
+    </section>
+
+    <section class="buildings">
+        <h3 class="section-title buildings__title">Старинные здания</h3>
+        <div class="buildings__gallery">
+            <div class="buildings__container-left">
+                <img src="<%=require('./images/krishna-moorthy-d-SPvxAdwoUzw-unsplash 1.jpg').default%>" alt="картинка в галерее" class="buildings__gallery-item">
+                <a href="#" class="link buildings__link">религиозные строения</a>
+            </div>
+            <div class="buildings__container-right older-builds">
+                <img src="<%=require('./images/ashim-d-silva-_4HhZOUEwmw-unsplash 1.jpg').default%>" alt="картинка в галерее" class="buildings__gallery-item" height="200">
+                <img src="<%=require('./images/filip-gielda-VPavA7BBxK0-unsplash 1.jpg').default%>" alt="картинка в галерее" class="buildings__gallery-item">
+                <img src="<%=require('./images/yeo-khee-hyZ8ln856Ag-unsplash 1.jpg').default%>" alt="картинка в галерее" class="buildings__gallery-item">
+                
+                <a href="#" class="link buildings__link buildings__link_older" >туристические здания</a>
+            </div>
+        </div>
+
+    </section>
+    
+    <section class="slider-unusual">
         
     </section>
+
 </body>
 <script src="<%=htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </html>

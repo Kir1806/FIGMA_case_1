@@ -1,0 +1,18 @@
+.subscribe__form_input {
+    
+    width: 350px;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 19px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 1px solid #9a9a9a;
+}
+
+/* .subscribe__form_input-label {
+    position: absolute;
+    top: 15px;
+    transition: 0.2s ease-in;
+    bottom: 11px;
+} */

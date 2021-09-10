@@ -1,0 +1,10 @@
+@import url('./_input/subscribe__form_input.css');
+
+.subscribe__form {
+    width: 29%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
